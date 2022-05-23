@@ -1,0 +1,18 @@
+create database fila;
+use fila;
+
+create table paciente(
+	codigo_paciente int auto_increment,
+    nome varchar(90) not null,
+    sexo char(8),
+    cpf char(11),
+    telefone char(10),
+    alergia varchar (90),
+    necessidade varchar(90),
+    cod_necessidade int (4), 
+    primary key(codigo_paciente)
+    );
+    
+    delete from paciente where codigo_paciente=99;
+    
+   select * from paciente;
