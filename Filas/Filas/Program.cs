@@ -36,6 +36,7 @@ namespace Filas
                         c.Select();
                         break;
                     case 3:
+                        c.SelectDelete();
                         c.Delete();
                         
                         break;
